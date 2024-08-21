@@ -1,0 +1,42 @@
+.main-container {
+    background-color: rgba(132, 0, 255, 0.664);
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    overflow: auto; /* Ensure content is scrollable if it exceeds viewport height */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.title-container {
+    width: 100%; /* Full width of parent container */
+    height: 100px; /* Fixed height */
+    text-align: center; /* Center text horizontally */
+    line-height: 100px; /* Vertically center text if only one line */
+    box-sizing: border-box; /* Ensure padding and borders are included in the height */
+}
+
+.title-container h1 {
+    color: black;
+    margin: 0; /* Remove default margin */
+}
+
+.profile-picture-container {
+    width: 100%; /* Full width of parent container */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.profile-picture-container img {
+    max-height: 350px;
+    border-radius: 30px;
+}
+
+.section-1 {
+    width: 90%; /* Set the width for paragraphs */
+    text-align: center; /* Center the text */
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
